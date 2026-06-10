@@ -1,0 +1,26 @@
+.usuario-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+
+  transition: all 0.3s ease;
+}
+
+.usuario-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.usuario-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  margin-bottom: 15px;
+}
+
+.usuario-info h3 {
+  margin-bottom: 10px;
+}
