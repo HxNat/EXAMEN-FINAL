@@ -41,6 +41,7 @@
   font-size: 0.85rem;
   color: #666;
   display: -webkit-box;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
