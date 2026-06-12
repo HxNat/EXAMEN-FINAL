@@ -16,9 +16,14 @@ const ProductoCard = ({ producto }) => {
 
         <h3>{producto.title}</h3>
 
+        <p className="descripcion">
+          {producto.description}
+        </p>
+
         <p className="precio">
           ${producto.price}
         </p>
+
       </div>
     </Link>
   );

@@ -36,3 +36,14 @@
   font-weight: bold;
   color: #00a650;
 }
+
+.descripcion {
+  font-size: 0.85rem;
+  color: #666;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding: 0 10px 15px; /* 👈 esto era lo que faltaba */
+  margin: 0;
+}
