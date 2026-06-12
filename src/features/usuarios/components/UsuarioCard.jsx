@@ -3,9 +3,9 @@ import "./UsuarioCard.css";
 const UsuarioCard = ({ usuario }) => {
   return (
     <div className="usuario-card">
-      <img
-        src={usuario.avatar}
-        alt={usuario.name}
+      <img 
+        src={usuario.avatar} 
+        alt={usuario.name} 
         className="usuario-avatar"
       />
 

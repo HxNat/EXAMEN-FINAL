@@ -22,7 +22,7 @@ const Productos = () => {
       <div className="productos-grid">
         {productos.map((producto) => (
           <ProductoCard
-            key={producto.id}
+            key={producto.id} 
             producto={producto}
           />
         ))}
